@@ -1,0 +1,10 @@
+[gd_resource type="ShaderMaterial" load_steps=3 format=3 uid="uid://dtby667er7h1"]
+
+[ext_resource type="Shader" path="res://shaders/lights.gdshader" id="1_ki4qt"]
+[ext_resource type="Texture2D" uid="uid://dpbh8r4jooofe" path="res://assets/sharc.png" id="2_2j1vj"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_ki4qt")
+shader_parameter/stage = 3
+shader_parameter/img = ExtResource("2_2j1vj")

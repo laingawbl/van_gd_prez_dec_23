@@ -1,0 +1,26 @@
+[gd_resource type="ShaderMaterial" load_steps=4 format=3 uid="uid://cxxt6ugme1nwr"]
+
+[ext_resource type="Shader" path="res://shaders/toon.gdshader" id="1_etr23"]
+
+[sub_resource type="Gradient" id="Gradient_1yphk"]
+interpolation_mode = 1
+offsets = PackedFloat32Array(0, 0.0425532, 0.0978723, 0.923404)
+colors = PackedColorArray(0, 0.1716, 0.25, 1, 0.245452, 0.402105, 0.523438, 1, 0.741077, 0.825194, 0.886719, 1, 1, 1, 1, 1)
+
+[sub_resource type="GradientTexture1D" id="GradientTexture1D_bmdt5"]
+gradient = SubResource("Gradient_1yphk")
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_etr23")
+shader_parameter/toon_wrap = 0.0
+shader_parameter/toon_use_attenuation = true
+shader_parameter/toon_clamp_diffuse = false
+shader_parameter/toon_ramp = SubResource("GradientTexture1D_bmdt5")
+shader_parameter/toon_use_specular = true
+shader_parameter/toon_specular_strength = 1.0
+shader_parameter/toon_specular_shine = 16.0
+shader_parameter/toon_use_rim = true
+shader_parameter/toon_rim_width = 0.1
+shader_parameter/toon_rim_color = Color(1, 1, 1, 1)
+shader_parameter/albedo = Color(0.815686, 0.772549, 0.760784, 1)

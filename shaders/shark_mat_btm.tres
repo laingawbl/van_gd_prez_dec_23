@@ -1,0 +1,6 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://icqh50x7m8gq"]
+
+[resource]
+resource_name = "Bottom"
+albedo_color = Color(0.858824, 0.858824, 0.858824, 1)
+metallic = 0.5

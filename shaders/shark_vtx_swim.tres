@@ -1,0 +1,15 @@
+[gd_resource type="ShaderMaterial" load_steps=2 format=3 uid="uid://cy8a2u01r8svn"]
+
+[ext_resource type="Shader" path="res://shaders/swimming.gdshader" id="1_b7ykk"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_b7ykk")
+shader_parameter/stage = 5
+shader_parameter/time_scale = 8.0
+shader_parameter/side_to_side = 1.0
+shader_parameter/pivot = 1.0
+shader_parameter/wave = 1.0
+shader_parameter/twist = 1.0
+shader_parameter/mask_black = -1.0
+shader_parameter/mask_white = 1.0

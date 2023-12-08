@@ -1,0 +1,33 @@
+[gd_resource type="ShaderMaterial" load_steps=4 format=3 uid="uid://biyd0rx4gbvn7"]
+
+[ext_resource type="Shader" path="res://shaders/school.gdshader" id="1_pgk5o"]
+
+[sub_resource type="Gradient" id="Gradient_1yphk"]
+interpolation_mode = 1
+offsets = PackedFloat32Array(0, 0.0425532, 0.0978723, 0.923404)
+colors = PackedColorArray(0, 0.1716, 0.25, 1, 0.245452, 0.402105, 0.523438, 1, 0.741077, 0.825194, 0.886719, 1, 1, 1, 1, 1)
+
+[sub_resource type="GradientTexture1D" id="GradientTexture1D_0wofw"]
+gradient = SubResource("Gradient_1yphk")
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_pgk5o")
+shader_parameter/toon_wrap = 0.0
+shader_parameter/toon_use_attenuation = true
+shader_parameter/toon_clamp_diffuse = null
+shader_parameter/toon_ramp = SubResource("GradientTexture1D_0wofw")
+shader_parameter/toon_use_specular = null
+shader_parameter/toon_specular_strength = 1.0
+shader_parameter/toon_specular_shine = 16.0
+shader_parameter/toon_use_rim = null
+shader_parameter/toon_rim_width = 0.0
+shader_parameter/toon_rim_color = Color(1, 1, 1, 1)
+shader_parameter/albedo = Color(0.816406, 0.773437, 0.761161, 1)
+shader_parameter/time_scale = 2.0
+shader_parameter/side_to_side = 0.5
+shader_parameter/pivot = 1.0
+shader_parameter/wave = 1.0
+shader_parameter/twist = 1.0
+shader_parameter/mask_black = 0.0
+shader_parameter/mask_white = 1.0

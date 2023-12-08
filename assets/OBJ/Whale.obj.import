@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cq0y66sme3o81"
+path="res://.godot/imported/Whale.obj-2c810e459f4ea42065391296be0b0de5.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Whale.obj-2c810e459f4ea42065391296be0b0de5.mesh"]
+
+source_file="res://assets/OBJ/Whale.obj"
+dest_files=["res://.godot/imported/Whale.obj-2c810e459f4ea42065391296be0b0de5.mesh", "res://.godot/imported/Whale.obj-2c810e459f4ea42065391296be0b0de5.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

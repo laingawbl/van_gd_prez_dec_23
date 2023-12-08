@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://c7riqnvty0v18"
+path="res://.godot/imported/Dolphin.obj-460ba4a0c9f333f465833e0d3587903a.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Dolphin.obj-460ba4a0c9f333f465833e0d3587903a.mesh"]
+
+source_file="res://assets/OBJ/Dolphin.obj"
+dest_files=["res://.godot/imported/Dolphin.obj-460ba4a0c9f333f465833e0d3587903a.mesh", "res://.godot/imported/Dolphin.obj-460ba4a0c9f333f465833e0d3587903a.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
